@@ -1,8 +1,10 @@
 <template>
     <div>
         <h1 class="movieTitle"> {{movieTitle}} </h1>
+        <input v-model="movieTitle" placeholder="edit me">
+        <button v-on:click="helloWorld">Hello World</button>
     </div>
-</template>
+</template> 
 
 <script>
     export default {
