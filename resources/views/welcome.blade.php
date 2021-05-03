@@ -16,6 +16,10 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -26,7 +30,7 @@
        <div  id="hero"> 
            <div class="hero-inner">
         <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+                <a class="navbar-brand" href="#"><img src="img/playlivelogo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -61,15 +65,16 @@
          <!--------hero texts-->
               <div id="hero-text1">
                   <div class="container">
-                  <h3><img src="img/netlog-removebg-preview.png"> <span>film</span></h3>
+                  <h3 class="playLiveTag">A Play-Live Film</h3>
                   <h4>operation varsity blues</h4>
-                  <h1>the college</h1>
+                  <example-component></example-component>
                   <h2>admission scandal</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi consectetur impedit error quod. Distinctio, impedit? At eius ab ipsum aspernatur!</p>
                   <button type="button" class="btn btn-light"> <i class="fas fa-play px-3"></i>Play</button>
                   <button type="button" class="btn btn-secondary"> <i class="fas fa-info-circle px-2"></i>More Info</button>
                 </div>
               </div>
+              
               
 
 
@@ -102,6 +107,9 @@
    </div>
 </div>
 </div>
+<footer>
+<p>Footer Goes Here </p>
+</footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

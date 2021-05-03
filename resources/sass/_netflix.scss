@@ -7,7 +7,7 @@ body{
     text-transform: capitalize;
 }
 .navbar-brand img{
-    width: 90px;
+    width: 50px;
     height: 50px;
     margin-left: 40px;
 }
@@ -15,7 +15,7 @@ body{
 /* hero settings */ 
 #hero{
 
-    background-image: url(../../public/img/home.jpg);
+    background-image: url(../../public/img/180997997_373103734014597_4401567175554608014_n.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -40,14 +40,8 @@ body{
      font-size: 70px;
      margin-top: -10px;
  }
- #hero-text1 span{
-    margin-left: -35px;
-   
-}
-#hero-text1 h3{
-   margin-bottom: -30px;
-   margin-left: -30px;
-}
+
+
 #hero-text1 h4{
     margin-top: 15px;
  }
@@ -56,6 +50,15 @@ body{
  
 .movie-image img {
     width: 100%;
+}
+
+.nav-link {
+    font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.playLiveTag {
+    margin-bottom: 1rem;
+    font-family: 'Bubblegum Sans', sans-serif;
 }
 
 @media only screen and (max-width:600px){
