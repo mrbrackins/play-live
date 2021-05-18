@@ -44,11 +44,11 @@
             <p>ready to watch? Enter your email to create or restart your membersgip.</p>
 
             <form class="form-inline">
-  <div class="form-group mb-2 mr-3">
+  <div class="form-group mr-2">
     <label for="staticEmail2" class="sr-only">Email</label>
     <input type="text" readonly class="form-control" id="staticEmail2" value="email@example.com">
   </div>
-  <button type="submit" class="btn btn-primary mb-2">Get Started</button>
+  <button type="submit" class="btn btn-danger mb-2">Get Started</button>
 </form>
          </section>
 </div>          

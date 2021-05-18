@@ -4,19 +4,36 @@ form{
     justify-content: center;
 }
 #welcomehero{
-    background-image: url(../../public/img/home.jpg);
+    background-image: url(../../public/img/Netflix-Background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
-    width: 100%;
     color: white;
 }
 .header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
     position: absolute;
-    top: 10rem;
-    left: 5%;
+    top: 15rem;
+    left: 7rem;
+    z-index: 1;
+    
 }
 .header h1{
     font-weight: bold;
+}
+@media only screen and (max-width:600px){
+    #welcomehero{
+        width: 100%;
+    }
+    .header{
+        left: 0%;
+    }
+    body{
+        width: 100%;
+    }
 }
