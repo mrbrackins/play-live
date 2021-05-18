@@ -10960,9 +10960,10 @@ body {
 /* hero settings */
 
 #hero {
-  background-image: url(/images/180997997_373103734014597_4401567175554608014_n.png?05ec8f1d03cad2888e6dab6471a0509a);
+  background-image: url(/images/home.jpg?04eb1b0b8ef1bd8847d17b5fceff5d4a);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
   background-position: center center;
   color: white;
 }
@@ -10984,7 +10985,7 @@ body {
 }
 
 #hero-text1 h1 {
-  font-size: 70px;
+  font-size: 50px;
   margin-top: -10px;
 }
 
@@ -11028,6 +11029,33 @@ body {
   }
 }
 
+form {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#welcomehero {
+  background-image: url(/images/home.jpg?04eb1b0b8ef1bd8847d17b5fceff5d4a);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  color: white;
+}
+
+.header {
+  position: absolute;
+  top: 10rem;
+  left: 5%;
+}
+
+.header h1 {
+  font-weight: bold;
+}
+
 footer {
   background: black;
+  color: white;
 }

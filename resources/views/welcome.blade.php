@@ -1,5 +1,9 @@
-@extends('layouts.app')
+@extends('layouts.main')
 @section('content')
+
+<div id="welcomehero">
+<div class="hero-inner">
+  <!-------hero-text------>
 <nav class="navbar navbar-expand-lg navbar-dark">
                 <a class="navbar-brand" href="#"><img src="img/playlivelogo.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,4 +38,19 @@
                 </div>
               </nav>
 
+         <section class="header container text-center">
+            <h1> Unlimited movies, tv <br> shows, and more.</h1>
+            <p>Watch anywhere, Cancel anytime.</p>
+            <p>ready to watch? Enter your email to create or restart your membersgip.</p>
+
+            <form class="form-inline">
+  <div class="form-group mb-2 mr-3">
+    <label for="staticEmail2" class="sr-only">Email</label>
+    <input type="text" readonly class="form-control" id="staticEmail2" value="email@example.com">
+  </div>
+  <button type="submit" class="btn btn-primary mb-2">Get Started</button>
+</form>
+         </section>
+</div>          
+</div>      
               @endsection
