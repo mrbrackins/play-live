@@ -15,12 +15,14 @@ body{
 /* hero settings */ 
 #hero{
 
-    background-image: url(../../public/img/180997997_373103734014597_4401567175554608014_n.png);
+    background-image: url(../../public/img/home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
     background-position: center center;
     color: white;
 }
+
 
 .hero-inner{
    color: white;
@@ -37,8 +39,9 @@ body{
  }
 
  #hero-text1 h1{
-     font-size: 70px;
+     font-size: 50px;
      margin-top: -10px;
+     
  }
 
 

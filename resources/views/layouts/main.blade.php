@@ -26,10 +26,10 @@
 </head>
 <body >
 <div id="app">
-    <div id="welcome">
 
-       <div  id="hero"> 
-           <div class="hero-inner">
+
+
+       
         
          <!--------hero texts-->
 
