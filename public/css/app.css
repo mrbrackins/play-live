@@ -11074,6 +11074,79 @@ form {
   }
 }
 
+/* upload page */
+
+#upload {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #FAFAFA;
+  align-content: center;
+  position: relative;
+  color: black;
+  top: 5rem;
+  left: 20rem;
+  padding: 5%;
+  width: 50%;
+  border-radius: 5px;
+}
+
+#upload .upload-content .btn1 {
+  width: 99px;
+  border-radius: 5px;
+  background: #E2EEEC;
+  padding: 8px 16px 8px 16px;
+  color: #4A8A5D;
+  font-family: Proxima Nova;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#upload .upload-content .fa-upload {
+  background-color: #E2EEEC;
+  border-radius: 70%;
+  color: #4A8A5D;
+  padding: 20px;
+}
+
+#upload .text {
+  display: flex;
+  align-content: centers;
+  align-items: center;
+  text-align: center;
+  margin-left: 40px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+#upload .top-left {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+#upload .bottom-left {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+#upload .top-right {
+  position: absolute;
+  top: 20px;
+  right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  #upload {
+    left: 0px;
+    width: 100%;
+  }
+}
+
 footer {
   background: black;
   color: white;
