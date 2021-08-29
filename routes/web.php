@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProgressBarController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/upload', [App\Http\Controllers\UploadVideoController::class, 'index']);
+
+Route::get('/upload', [ProgressBarController::class, 'index']);
+Route::post('/upload-doc-file', [ProgressBarController::class, 'uploadToServer']);
 
 Auth::routes();
 
